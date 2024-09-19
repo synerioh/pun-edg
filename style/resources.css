@@ -5,11 +5,6 @@
 .main{
     position: relative;
 }
-
-.main img{
-width: 1550px;
-height: 200px;
-}
 .banner-text{
     position: absolute;
     top: 20%;
