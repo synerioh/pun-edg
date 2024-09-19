@@ -2,12 +2,45 @@
     padding: 0;
     margin: 0;
 }
-
 .main{
-width: 100px;
-background: linear-gradient(to top,rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%,), url(../image/wags\ dog.jpg)
+    position: relative;
 }
 
+.main img{
+width: 1550px;
+height: 200px;
+}
+.banner-text{
+    position: absolute;
+    top: 20%;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.banner-text h2{
+font-size: 25px;
+font-weight: bold;
+text-transform: uppercase;
+margin-bottom: 3px;
+}
+
+.content{
+width: 100%;
+background: green;
+overflow: auto /*to control float*/
+}
+.content ul{
+    list-style-type: none;
+}
+.content ul a{
+float: left;
+color: #fff;
+width: 20%;
+padding: 20px 10px;
+transition: 0.2% linear;
+font-size: 20px;
+text-align: center;
+}
 .center{
    background-color: #fff;
    display: flex; 
@@ -40,5 +73,8 @@ font-size: 15px;
  .center ul li a:hover{
     color: blue;
  }
-
+.container{
+    text-align: center;
+    border-radius: 50px;
+}
 
