@@ -61,7 +61,7 @@ font-size: 15px;
 }
 
  .center,h1{
-    colour: green;
+    color: green;
     font-size: 20px;
  }
 
@@ -73,3 +73,35 @@ font-size: 15px;
     border-radius: 50px;
 }
 
+
+#div1{
+    background-color: #fff;
+    width: 33.33%;
+    float: right;
+    color: aqua;
+    font-size: 15px;
+    height: 350px;
+    line-height: 30px;
+}
+
+#div2{
+    background-color: #fff;
+    width: 33.33%;
+    float: left; 
+    color: aqua;
+     font-size: 15px;
+    height: 350px;
+    line-height: 30px;
+
+}
+
+#div3{
+    background-color: #fff;
+    width: 33.33%;
+    margin: 0 auto;
+    color: aqua;
+    font-size: 15px;
+    height: 350px;
+    line-height: 30px;
+
+}
