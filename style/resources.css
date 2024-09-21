@@ -62,7 +62,7 @@ font-size: 15px;
 
  .center,h1{
     color: green;
-    font-size: 20px;
+    font-size: 50px;
  }
 
  .center ul li a:hover{
@@ -105,3 +105,28 @@ font-size: 15px;
     line-height: 30px;
 
 }
+
+.menu_bar{
+    background-color: #eee;
+    height: 500px;
+    width: 2000px;
+    display: flex;
+   line-height: 30px; 
+    
+ }
+ .menu_bar ul{
+    list-style: none;
+    display: flex;
+ }
+ .menu_bar ul li {
+    padding: 10px 20px;
+    color:black ;
+ }
+ .menu_bar,h4{
+    color: rgb(0, 255, 76);
+    font-size: 50px;
+    line-height: 30px;
+ }
+ .menu_bar,p{
+    font-size: 20px;
+ }
