@@ -108,7 +108,7 @@ font-size: 15px;
 
 .menu_bar{
     background-color: #eee;
-    height: 500px;
+    height: 350px;
     width: 2000px;
     display: flex;
    line-height: 30px; 
@@ -119,14 +119,34 @@ font-size: 15px;
     display: flex;
  }
  .menu_bar ul li {
-    padding: 10px 20px;
+    padding: 20px 40px;
     color:black ;
  }
+
+ .menu_bar ul li a{
+    color: rgba(0, 238, 255, 0.747);
+    font-size: 20px;
+    text-decoration: none;
+ }
  .menu_bar,h4{
-    color: rgb(0, 255, 76);
+    color: rgba(0, 238, 255, 0.747);
     font-size: 50px;
     line-height: 30px;
  }
  .menu_bar,p{
     font-size: 20px;
+ }
+
+ .Icons ul{
+    list-style: none;
+    display: flex;
+ }
+
+ .Icons ul li{
+    padding: 10px 20px;
+ }
+ .Icons ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
  }
