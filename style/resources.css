@@ -72,7 +72,11 @@ font-size: 15px;
     text-align: center;
     border-radius: 50px;
 }
-
+.box a{
+   color: rgba(0, 238, 255, 0.747);
+   font-size: 15px;
+   text-decoration: none;
+}
 
 #div1{
     background-color: #fff;
@@ -108,19 +112,25 @@ font-size: 15px;
 
 .menu_bar{
     background-color: #eee;
-    height: 350px;
+    height: 500px;
     width: 2000px;
-    display: flex;
    line-height: 30px; 
     
+ }
+ .menu_bar img{
+   width: 200px;
+   height: 50px;
+   float: left; 
  }
  .menu_bar ul{
     list-style: none;
     display: flex;
  }
  .menu_bar ul li {
-    padding: 20px 40px;
+    margin: 0 auto;
     color:black ;
+    margin-top: 0 5%;
+    align-items: center;
  }
 
  .menu_bar ul li a{
